@@ -1,8 +1,7 @@
 // Name: Kaleb Dalla Pria       Section: 10    Recitation Class: Tu - 3:30pm - 4:50 pm
 
-/*This is a class called Diamond and it objective is to create an object that represents a diamond. Also, 
- * with this class it is possible to manipulate the diamond and get some information about it just having 
- * the lenght of the side
+/*This is a class called Diamond and its objective is to create an object that represents a diamond. Also, 
+ * with this class it is possible to manipulate the diamond object and get some information about it.
  */
  
 class Diamond {

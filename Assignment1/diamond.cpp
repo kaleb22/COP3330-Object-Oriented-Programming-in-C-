@@ -26,11 +26,7 @@ Diamond::Diamond(int s, char b, char in){
 
 int Diamond::Perimeter(){
     
-    int perimetro;                                      // For storing the result of the calculation
-    
-    perimetro = 3 * size;
-    
-    return perimetro * 2;
+    return size * 4;
 }
 
 int Diamond::GetSize(){
@@ -40,9 +36,7 @@ int Diamond::GetSize(){
 
 double Diamond::Area(){
     
-    double area = ( pow (size, 2) * sqrt(3) ) / 4;      // For storing the result of the calculation
-    
-    return area * 2;
+    return ((pow (size, 2) * sqrt(3) ) / 4) * 2;
 }
 
 void Diamond::Grow(){
@@ -79,7 +73,7 @@ void Diamond::Draw(){
 
 //this first block of for, starts to draw the diamond. It draws the upper part of the diamond
 
-          for(int i = 1; i <= size; i++){               // i begin in 1 and Increase until it reaches the alue of the size
+          for(int i = 1; i <= size; i++){               // i begin in 1 and Increase until it reaches the value of the size
        
             for(int j = (size-i); j > 0; j--)           // print (size-i) spaces for each line
                 cout << " ";

@@ -3,6 +3,7 @@ using namespace std;
 
 #include "mystring.cpp"
 
+
 int main()
 {
     MyString s1;
